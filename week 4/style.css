@@ -1,0 +1,67 @@
+* {
+    /* Reminder: border-box means that the padding and border are included in the width and height */
+    box-sizing: border-box;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower|Libre+Baskerville|Raleway|Srisakdi');
+</style>
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("pexels-photo-921776.jpeg");
+}
+
+#container {
+  width: 800px;
+  /* Auto margins value centers the div element */
+  margin: 0 auto;
+}
+
+header {
+  background-color:#d19090;
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+aside {
+  background-color:#b5d190;
+  width: 33.33%;
+  height: 200px;
+  font-family: 'Indie Flower', cursive;
+  padding: 50px ;
+  float: left;
+}
+
+section {
+  background-color:#c19bc6;
+  width: 33.33%;
+  height: 200px;
+  font-family: 'Srisakdi', cursive;
+  padding: 50px ;
+  float:right;
+
+}
+
+main {
+  background-color:#90a1d1;
+  width: 33.33%;
+  height: 200px;
+  font-family: 'Libre Baskerville', serif;
+  padding: 50px ;
+  float: left;
+}
+
+footer {
+  background-color:#d1c790;
+  height:50px;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  clear: both;
+}
